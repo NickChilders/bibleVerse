@@ -11,7 +11,7 @@ height= top.winfo_screenheight()
 top.geometry("%dx%d" % (width, height))
 top.title("BibleVerse")
 
-LF = LabelFrame(top, text = "Welcome to BibleVerse!", font ="Courier 18 bold", labelanchor = N)
+LF = LabelFrame(top, text = "Welcome to GetBibleVerse!", font ="Courier 18 bold", labelanchor = N)
 LF.pack(fill = "both", expand = "yes")
 
 multiStr = ""
@@ -94,19 +94,19 @@ def play():
 #------------------------------------------------------------#
 
 #------------------------------------------------------------#
-L1 = Label(top, text = "Enter a Book: ", font="Courier")
+L1 = Label(top, text = "Enter a Book: ", font="Courier 14 bold")
 L1.place(x = (width/2)-200, y = 100)
 E1 = Entry(top, bd = 5)
 E1.place(x =  (width/2)+25 , y = 100)
 
 
-L2 = Label(top, text = "Enter a Chapter: ", font="Courier")
+L2 = Label(top, text = "Enter a Chapter: ", font="Courier 14 bold")
 L2.place(x = (width/2)-200, y = 150)
 E2 = Entry(top, bd = 5)
 E2.place(x =  (width/2)+25, y = 150)
 
 
-L3 = Label(top, text = "Enter a Verse: ", font="Courier")
+L3 = Label(top, text = "Enter a Verse: ", font="Courier 14 bold")
 L3.place(x = (width/2)-200, y = 200)
 E3 = Entry(top, bd = 5)
 E3.place(x =  (width/2)+25, y = 200)
